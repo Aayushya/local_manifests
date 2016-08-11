@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="purenexus_device_huawei_angler" />
+  <remove-project name="purenexus_device_lge_hammerhead" />
+  <remove-project name="purenexus_kernel_huawei_angler" />
+  <remove-project name="purenexus_kernel_lge_hammerhead" />
+  <remove-project name="purenexus_proprietary_vendor_huawei" />
+  <remove-project name="purenexus_proprietary_vendor_lge" />
+  <remove-project name="purenexus_build"/>
+  <remove-project name="platform/hardware/qcom/wlan" />
+  <remove-project name="purenexus_frameworks_opt_telephony" />
+  <remove-project name="purenexus_system_core" />
+  <remove-project name="purenexus_system_vold" />
+  <remove-project name="purenexus_vendor_nexus" />
+  <remove-project name="platform/external/dhcpcd"/>
+  <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/qcom/bt" />
+  <remove-project name="platform/hardware/qcom/camera" />
+  <remove-project name="platform/hardware/qcom/display" />
+  <remove-project name="platform/hardware/qcom/gps" />
+  <remove-project name="platform/hardware/qcom/media" />
+  <remove-project name="platform/hardware/ril" />
+  <project name="Aayushya/android_device_motorola_falcon" path="device/motorola/falcon" remote="github" revision="pn" />
+  <project name="Aayushya/android_device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="github" revision="pn" />
+  <project name="CyanogenMod/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="github" revision="cm-13.0" />
+  <project name="AOSPB/hardware_ril" path="hardware/ril-caf" remote="github" revision="mm6.0-caf" />
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_hardware_qcom_bt" path="hardware/qcom/bt-caf" remote="github" revision="cm-13.0-caf" />
+  <project name="CyanogenMod/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_system_qcom" path="system/qcom" remote="github" revision="cm-13.0" />
+  <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-13.0" />
+  <project path="build" name="purenexus-clark/android_build" remote="github" revision="mm2" >
+      <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  
+  <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" remote="github" revision="cm-13.0" />
+  <project path="external/dhcpcd" name="CyanogenMod/android_external_dhcpcd" remote="github" revision="cm-13.0" />
+  <project path="external/libnetfilter_conntrack" name="CyanogenMod/android_external_libnetfilter_conntrack" remote="github" revision="cm-13.0"/>
+  <project path="external/libnfnetlink" name="CyanogenMod/android_external_libnfnetlink" remote="github" revision="cm-13.0" />
+  <project path="frameworks/opt/telephony" name="purenexus-clark/android_frameworks_opt_telephony" remote="github" revision="mm2" />
+  <project path="hardware/libhardware" name="purenexus-clark/android_hardware_libhardware" remote="github" revision="mm2" />
+  <project path="hardware/qcom/bt" name="purenexus-clark/android_hardware_qcom_bt" remote="github" revision="mm" />
+  <project path="hardware/qcom/camera" name="purenexus-clark/android_hardware_qcom_camera" remote="github" revision="mm2" />
+  <project path="hardware/qcom/display" name="purenexus-clark/android_hardware_qcom_display" remote="github" revision="mm2" />
+  <project path="hardware/qcom/display-caf/msm8974" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="cm-13.0-caf-8974" />
+  <project path="hardware/qcom/gps" name="purenexus-clark/android_hardware_qcom_gps" remote="github" revision="mm2" />
+  <project path="hardware/qcom/media" name="purenexus-clark/android_hardware_qcom_media" remote="github" revision="mm2" />
+  <project path="hardware/qcom/media-caf/msm8974" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="cm-13.0-caf-8974" />
+  <project path="hardware/ril" name="purenexus-clark/android_hardware_ril" remote="github" revision="mm2" />
+  <project path="system/core" name="purenexus-clark/android_system_core" remote="github" revision="mm2-moto" />
+  <project path="system/vold" name="purenexus-clark/android_system_vold" remote="github" revision="mm2" />
+  <project path="vendor/nexus" name="purenexus-clark/android_vendor_nexus" remote="github" revision="mm2" />
+  <project path="vendor/qcom/opensource/dataservices" name="CyanogenMod/android_vendor_qcom_opensource_dataservices" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" path="hardware/qcom/wlan" remote="github" revision="cm-13.0" />
+  <project name="SlimRoms/hardware_qcom_wlan" path="hardware/qcom/wlan-caf" remote="github" revision="mm6.0-caf" />
+ 
+  <remote name="aospb" fetch="https://github.com/AOSPB" revision="mm6.0" />
+  <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native" remote="aospb" />
+  <project path="external/ant-wireless/ant_service" name="external_ant-wireless_ant_service" remote="aospb" />
+  <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="aospb" />
+
+</manifest>
