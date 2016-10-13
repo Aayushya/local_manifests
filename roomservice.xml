@@ -14,7 +14,7 @@
   <remove-project name="platform/hardware/ril" />
   <project name="CyanogenMod/android_device_motorola_falcon" path="device/motorola/falcon" remote="github" revision="cm-14.0" />
   <project name="CyanogenMod/android_device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="github" revision="cm-14.0" />
-  <project name="CyanogenMod/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="github" revision="cm-14.0" />
   <project name="SlimRoms/hardware_ril" path="hardware/ril-caf" remote="github" revision="ng7.0-caf" />
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.0" />
   <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" remote="github" revision="cm-14.0" />
